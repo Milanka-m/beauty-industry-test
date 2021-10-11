@@ -1,0 +1,14 @@
+.service__link {
+  text-decoration: none;
+  margin: 0 auto;
+  width: 170px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: opacity .4s;
+}
+
+.service__link:hover {
+  opacity: .6;
+}

@@ -1,0 +1,8 @@
+.reviews__text-author {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: normal;
+  color: #000;
+  padding: 10px 0 0 100px;
+}

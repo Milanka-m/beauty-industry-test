@@ -1,0 +1,9 @@
+.footer__social-link {
+  text-decoration: none;
+  margin: 0;
+  transition: opacity 1s;
+}
+
+.footer__social-link:hover {
+  opacity: .6;
+}

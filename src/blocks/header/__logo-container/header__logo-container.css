@@ -1,0 +1,6 @@
+.header__logo-container {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,8 @@
+.header__address {
+  font-size: .9rem;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.71);
+  text-align: right;
+  margin: 0;
+  padding-bottom: 20px;
+}

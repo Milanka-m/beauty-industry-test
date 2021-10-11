@@ -1,0 +1,10 @@
+.reviews__background-image {
+  width: 113px;
+  height: 113px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/reviews-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

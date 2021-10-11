@@ -1,0 +1,9 @@
+.promo__title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding: 40px 0 20px;
+}

@@ -1,0 +1,10 @@
+.service__image {
+  width: 147px;
+  height: 147px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/service-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

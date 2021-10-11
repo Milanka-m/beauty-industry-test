@@ -1,0 +1,9 @@
+.form__title {
+  font-weight: normal;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.71);
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+}

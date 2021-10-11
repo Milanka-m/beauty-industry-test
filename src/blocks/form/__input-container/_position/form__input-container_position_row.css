@@ -1,0 +1,6 @@
+.form__input-container_position_row {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

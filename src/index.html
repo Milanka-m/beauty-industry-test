@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Косметический кабинет</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo-container">
+          <a href="#" class="logo" target="_blank" rel="noopener"></a>
+          <p class="header__slogan">слоган компании</p>
+        </div>
+        <div class="header__content">
+          <ul class="header__about">
+            <li><p class="header__address">г. Название, ул. Название улицы, д. №</p></li>
+            <li><p class="header__phone">+7 900 00-00-000</p></li>
+            <li><p class="header__phone">+7 900 00-00-000</p></li>
+          </ul>
+          <form class="form" name="application">
+            <div class="form__container">
+              <h2 class="form__title">Хотите стать ещё красивее</h2>
+              <fieldset class="form__input-container">
+                <section class="form__section">
+                  <input class="form__input" type="text" name="name" id="name"
+                    placeholder="Введите имя"
+                    minlength="2" maxlength="30" required>
+                </section>
+                <section class="form__section">
+                  <input class="form__input" type="text" name="tel" id="tel"
+                    placeholder="Введите телефон" minlength="11" maxlength="13" required>
+                </section>
+              </fieldset>
+            </div>
+            <fieldset class="form__handlers">
+              <button type="submit" class="form__button">Отправить заявку</button>
+            </fieldset>
+            <p class="form__subtitle">В течении часа мы свяжемся с Вами для согласования удобного времени</p>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <section class="service">
+        <div class="service__container">
+          <h2 class="service__subtitle">Что мы умеем</h2>
+          <ul class="service__list">
+            <li>
+              <a class="service__link" href="#" target="_blank" rel="noopener">
+                <div class="service__image">
+                  <img class="service__image-item" src="./images/service-haircut.jpg" alt="стрижка"/>
+                </div>
+                <span class="service__link-text">Стрижки</span>
+              </a>
+            </li>
+            <li>
+              <a class="service__link" href="#" target="_blank" rel="noopener">
+                <div class="service__image">
+                  <img class="service__image-item" src="./images/service-hairstyle.jpg" alt="стрижка"/>
+                </div>
+                <span class="service__link-text">Причёски</span>
+              </a>
+            </li>
+            <li>
+              <a class="service__link" href="#" target="_blank" rel="noopener">
+                <div class="service__image">
+                  <img class="service__image-item" src="./images/service-manicure.jpg" alt="стрижка"/>
+                </div>
+                <span class="service__link-text">Маникюр</span>
+              </a>
+            </li>
+            <li>
+              <a class="service__link" href="#" target="_blank" rel="noopener">
+                <div class="service__image service__image_color_gold">
+                  <img class="service__image-item" src="./images/service-cosmetic-cabinet.jpg" alt="стрижка"/>
+                </div>
+                <span class="service__link-text service__link-text_color_gold">Косметический кабинет</span>
+              </a>
+            </li>
+            <li>
+              <a class="service__link" href="#" target="_blank" rel="noopener">
+                <div class="service__image">
+                  <img class="service__image-item" src="./images/service-pedicure.jpg" alt="стрижка"/>
+                </div>
+                <span class="service__link-text">Педикюр</span>
+              </a>
+            </li>
+          </ul>
+          <h1 class="service__title">Косметический кабинет</h1>
+          <p class="service__paragraph">Здесь текст, описывающий почему для данной услуги лучше
+            обратиться именно к Вам - для каждой из вкладок свой текст,
+            ну а мы разместили простой текст из поисковой выдачи.</p>
+          <p class="service__paragraph">Как открыть свой косметический кабинет.
+            Одним из привлекательных видов бизнеса в наше время считается открытие косметологического кабинета.</p>
+        </div>
+      </section>
+
+      <section class="promo">
+        <div class="promo__content">
+          <ul class="promo__event">
+            <li><h3 class="promo__title">Акция</h3></li>
+            <li>
+              <h4 class="promo__subtitle">8 ноября для всех посетителей скидка
+                <span class="promo__subtitle-span">25%</span>
+              </h4>
+            </li>
+            <li>
+              <p class="promo__counter-text">до конца акции осталось:</p>
+            </li>
+            <li>
+              <p class="promo__counter"></p>
+              <p class="promo__counter-data">дн. час. мин. сек.</p>
+            </li>
+            <li>
+              <p class="promo__text">Акция действует только для записавшихся на приём</p>
+            </li>
+          </ul>
+          <form class="form_position_promo" name="application">
+            <div class="form__container">
+              <fieldset class="form__input-container form__input-container_position_row">
+                <section class="form__section">
+                  <input class="form__input" type="text" name="name" id="name"
+                    placeholder="Введите имя"
+                    minlength="2" maxlength="30" required>
+                </section>
+                <section class="form__section">
+                  <input class="form__input" type="text" name="tel" id="tel"
+                    placeholder="Введите телефон" minlength="11" maxlength="13" required>
+                </section>
+              </fieldset>
+            </div>
+            <fieldset class="form__handlers">
+              <button type="submit" class="form__button">Отправить заявку</button>
+            </fieldset>
+            <p class="form__subtitle">В течении часа мы свяжемся с Вами для согласования удобного времени</p>
+          </form>
+        </div>
+        <div class="promo__certification">
+          <h3 class="promo__title">Наши награды</h3>
+          <ul class="promo__certification-list">
+            <li><img class="promo__certification-img" src="./images/certificate.jpg" alt="сертифекат" /></li>
+            <li><img class="promo__certification-img" src="./images/certificate.jpg" alt="сертифекат" /></li>
+            <li><img class="promo__certification-img" src="./images/certificate.jpg" alt="сертифекат" /></li>
+            <li><img class="promo__certification-img" src="./images/certificate.jpg" alt="сертифекат" /></li>
+            <li><img class="promo__certification-img" src="./images/certificate.jpg" alt="сертифекат" /></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="service__container">
+          <h3 class="service__subtitle">Отзывы наших клиенток</h3>
+          <article class="reviews__block">
+            <div class="reviews__background-image">
+              <img class="reviews__image" src="./images/reviews.jpg" alt="изображение девушки"/>
+            </div>
+            <div class="reviews__paragraph">
+              <p class="reviews__text">Давно уже хожу в Ваш салон - всё очень-очень нравиться!
+                Всегда рекомендую Вас всем своим подружкам! Желаю Вам успехов и процветания</p>
+              <p class="reviews__text-author">Анастасия</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="service__container">
+          <h2 class="service__subtitle">То, за что 1473 клиентки выбрали именно нас</h2>
+          <ul class="service__list">
+            <li>
+              <div class="about__item">
+                <img class="about__icon" src="./images/price-icon.svg" alt="иконка монета"/>
+                <span class="about__icon-text">Гибкая ценовая политика</span>
+              </div>
+            </li>
+            <li>
+              <div class="about__item">
+                <img class="about__icon" src="./images/person-icon.svg" alt="иконка люди"/>
+                <span class="about__icon-text">Квалифицированные специалисты</span>
+              </div>
+            </li>
+            <li>
+              <div class="about__item">
+                <img class="about__icon" src="./images/present-icon.svg" alt="иконка подарок"/>
+                <span class="about__icon-text">Подарочные сертификаты</span>
+              </div>
+            </li>
+            <li>
+              <div class="about__item">
+                <img class="about__icon" src="./images/time-icon.svg" alt="иконка часы"/>
+                <span class="about__icon-text">Удобное врямя для записи</span>
+              </div>
+            </li>
+            <li>
+              <div class="about__item">
+                <img class="about__icon" src="./images/creditcard-icon.svg" alt="иконка карта"/>
+                <span class="about__icon-text">Удобная форма оплаты</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="application">
+        <div class="application__container">
+          <h3 class="promo__title">Нужна консультация по нашему предложению?</h3>
+          <form class="form_position_promo" name="application">
+            <div class="form__container">
+              <fieldset class="form__input-container form__input-container_position_row">
+                <section class="form__section">
+                  <input class="form__input" type="text" name="name" id="name"
+                    placeholder="Введите имя"
+                    minlength="2" maxlength="30" required>
+                </section>
+                <section class="form__section">
+                  <input class="form__input" type="text" name="tel" id="tel"
+                    placeholder="Введите телефон" minlength="11" maxlength="13" required>
+                </section>
+              </fieldset>
+            </div>
+            <fieldset class="form__handlers">
+              <button type="submit" class="form__button">Отправить заявку</button>
+            </fieldset>
+            <p class="form__subtitle">В течении часа мы свяжемся с Вами для согласования удобного времени</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="partners">
+        <div class="partners__container">
+          <h2 class="service__subtitle">Наши партнёры</h2>
+          <ul class="service__list">
+            <li>
+              <img class="partners__icon" src="./images/marykay-icon.svg" alt="иконка marykay"/>
+            </li>
+            <li>
+              <img class="partners__icon" src="./images/loreal-icon.svg" alt="иконка loreal"/>
+            </li>
+            <li>
+              <img class="partners__icon" src="./images/marykay-icon.svg" alt="иконка maxfactor"/>
+            </li>
+            <li>
+              <img class="partners__icon" src="./images/loreal-icon.svg" alt="иконка oriflame"/>
+            </li>
+            <li>
+              <img class="partners__icon" src="./images/avon-icon.svg" alt="иконка avon"/>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <h3 class="promo__title">Наши контакты</h3>
+      </section>
+      <section class="map">
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer__column-links">
+          <li>
+            <a
+              href="#"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer">
+                <img class="footer__social-icon" src="./images/facebook-social-icon.svg" alt="иконка Фейсбук" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer">
+                <img class="footer__social-icon" src="images/vk-social-icon.svg" alt="иконка ВКонтакте" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer">
+                <img class="footer__social-icon" src="./images/instagram-social-icon.svg" alt="иконка Инстаграм" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer">
+                <img class="footer__social-icon" src="./images/telegram-social-icon.svg" alt="иконка Телеграм" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer">
+                <img className="footer__social-icon" src="./images/tiktok-social-icon.svg" alt="иконка ТикТок" />
+            </a>
+          </li>
+        </ul>
+        <div class="footer__contacts">
+          <ul class="header__about">
+            <li><p class="footer__work-mode">пн-пт: с 09:00 до 20:00</p></li>
+            <li><p class="footer__work-mode">сб: с 10:00 до 19:00</p></li>
+            <li><p class="footer__work-mode">вс: с 10:00 до 17:00</p></li>
+          </ul>
+          <ul class="header__about">
+            <li><p class="header__address">г. Название, ул. Название улицы, д. №</p></li>
+            <li><p class="header__phone">+7 900 00-00-000</p></li>
+            <li><p class="header__phone">+7 900 00-00-000</p></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="./pages/index.js"></script>
+</body>
+</html>

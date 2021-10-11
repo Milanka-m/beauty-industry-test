@@ -1,0 +1,9 @@
+.promo {
+  margin: 0 auto;
+  max-width: 100vw;
+  min-height: 767px;
+  background-image: url(../../images/promotion-background.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
